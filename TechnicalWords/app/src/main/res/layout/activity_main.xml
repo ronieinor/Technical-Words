@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0F9F9F"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/logoo"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="218dp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IT TECHNICAL WORD"
+        android:background="#096572"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:fontFamily="courier new"
+        android:textColor="@color/white"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/words"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="Search Technical Word"/>
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        app:backgroundTint="#0E7070" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:textColor="@color/white"
+        android:background="#0A3036 "
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/adding_button"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:onClick="add"
+        app:backgroundTint="#0E7070" />
+
+
+
+</LinearLayout>
